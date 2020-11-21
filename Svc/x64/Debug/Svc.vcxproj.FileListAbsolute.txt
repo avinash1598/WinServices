@@ -1,0 +1,2 @@
+C:\Users\Avinash Ranjan\source\repos\Svc\x64\Debug\Svc.exe
+C:\Users\Avinash Ranjan\source\repos\Svc\x64\Debug\Svc.pdb

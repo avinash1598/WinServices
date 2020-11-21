@@ -1,0 +1,3 @@
+﻿  WFPFilter.c
+C:\Users\Avinash Ranjan\source\repos\Svc\WFPFilter.c(36,29): warning C4047: '!=': 'UINT64' differs in levels of indirection from 'void *'
+  Svc.vcxproj -> C:\Users\Avinash Ranjan\source\repos\Svc\x64\Debug\Svc.exe

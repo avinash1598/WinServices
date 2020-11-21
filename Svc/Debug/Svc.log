@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(41,9): error C2561: 'wmain': function must return a value
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(33): message : see declaration of 'wmain'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(47,11): error C2440: 'initializing': cannot convert from 'const wchar_t [8]' to 'LPWSTR'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(47,11): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(56,58): error C2664: 'void SvcReportEvent(LPTSTR)': cannot convert argument 1 from 'const wchar_t [27]' to 'LPTSTR'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(56,24): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(20,6): message : see declaration of 'SvcReportEvent'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(76,8): error C2664: 'DWORD GetModuleFileNameW(HMODULE,LPWSTR,DWORD)': cannot convert argument 1 from 'const char [1]' to 'HMODULE'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(76,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(237,1): message : see declaration of 'GetModuleFileNameW'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(147,58): error C2664: 'void SvcReportEvent(LPTSTR)': cannot convert argument 1 from 'const wchar_t [27]' to 'LPTSTR'
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(147,24): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\Avinash Ranjan\source\repos\Svc\Source.cpp(20,6): message : see declaration of 'SvcReportEvent'
